@@ -1,0 +1,21 @@
+DILIGENCE AI - QUICK START (Windows)
+
+1. Extract this zip to  C:\dd-copilot  (a short folder like C:\ avoids permission problems;
+   do not run it from inside the zip, Downloads or OneDrive).
+2. Get a free Gemini key: aistudio.google.com -> Get API key -> Create key
+   (choose "Default Gemini Project"). Copy it.
+3. Double-click  setup.bat   (installs everything; takes 5-15 minutes the first time).
+   When Notepad opens, set:
+        LLM_PROVIDER=gemini
+        LLM_API_KEY=your_key_here        (no quotes, no spaces)
+   Save the file and close Notepad.
+4. Double-click  run.bat   -> your browser opens http://127.0.0.1:8000
+   Keep the black window open while you use the app.
+5. In the app: Settings -> Test connection (should say "LLM works").
+6. Companies -> add a company -> Document Library -> upload a text-based PDF
+   (wait for the green "ready" badge) -> AI Assistant / Risk Analysis / Growth / Reports.
+
+Notes
+- Scanned (image-only) PDFs are not supported yet (no OCR).
+- Never share your .env file or API key.
+- Use another LLM by editing .env (see the comments inside .env.example).

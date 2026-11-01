@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Due Diligence Copilot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand"><div class="logo">◆</div><div><b>Diligence AI</b><span>Research Copilot</span></div></div>
+    <nav id="nav">
+      <button data-view="dashboard"><i>▦</i><span>Dashboard</span></button>
+      <button data-view="companies"><i>◈</i><span>Companies</span></button>
+      <button data-view="documents"><i>▤</i><span>Document Library</span></button>
+      <button data-view="assistant"><i>✦</i><span>AI Assistant</span></button>
+      <button data-view="risk"><i>▲</i><span>Risk Analysis</span></button>
+      <button data-view="growth"><i>↗</i><span>Growth</span></button>
+      <button data-view="reports"><i>❏</i><span>Reports</span></button>
+      <button data-view="settings"><i>⚙</i><span>Settings</span></button>
+    </nav>
+    <div class="side-foot">AI-generated analysis. Not investment advice. Verify against source documents.</div>
+  </aside>
+  <div class="col">
+    <header class="top">
+      <div class="search"><span>⌕</span><input id="gsearch" placeholder="Ask the AI assistant anything…  ⏎"></div>
+      <select id="companySel" title="Current company"></select>
+      <div id="pill" class="pill">● checking</div>
+    </header>
+    <main id="content"></main>
+  </div>
+</div>
+<aside id="drawer" class="drawer">
+  <div class="dh"><b>Source evidence</b><button class="x" data-act="close">✕</button></div>
+  <div id="dbody"></div>
+</aside>
+<div id="toasts"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
