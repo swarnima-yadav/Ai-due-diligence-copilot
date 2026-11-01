@@ -4,3 +4,5 @@ storage/
 __pycache__/
 *.pyc
 *.code-workspace
+.vscode/
+frontend/
