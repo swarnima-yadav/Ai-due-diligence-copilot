@@ -20,3 +20,17 @@ Tests: `pytest tests/`
 
 ## Not implemented yet
 OCR for scanned PDFs, financial-table extraction and trend charts, chat-session persistence, authentication.
+
+## Screenshots
+
+### Dashboard
+![Dashboard](docs/dashboard.png)
+
+### AI Assistant with source citations
+![AI Assistant](docs/assistant.png)
+
+### Risk Analysis
+![Risk Analysis](docs/risk.png)
+
+### Executive Summary
+![Report](docs/report.png)
